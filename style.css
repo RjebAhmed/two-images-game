@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body {
+  background-color: rgb(28, 180, 180);
+  font-family: Poppins;
+  overflow: hidden;
+}
+.pageTitle {
+  margin: 90px 0;
+}
+.gameContainer {
+  display: grid;
+  margin: auto;
+  width: 44%;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 15px 2px;
+}
+.gameContainer button {
+  width: 90%;
+  height: 120px;
+  border: none;
+  background-color: rgba(205, 233, 233, 0.54);
+  border-radius: 7px;
+  cursor: pointer;
+}
+button:focus {
+  outline: 0;
+}
+.result {
+  width: 60%;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.438);
+  position: relative;
+  left: 50%;
+  bottom: 270px;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  display: none;
+}
+.result h1 {
+  text-align: center;
+  color: white;
+  padding-top: 1%;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+}
+.result button {
+  position: relative;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+  width: 30%;
+  height: 20%;
+  background-color: rgba(28, 180, 180, 0.644);
+  border: rgba(23, 163, 163, 0.808) solid 1px;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.result button:hover {
+  background-color: rgba(28, 180, 180, 0.884);
+  transition: 0.7s;
+}
+
+.try .span1 {
+  position: absolute;
+  top: 120px;
+  left: 80px;
+  font-weight: bolder;
+
+  font-size: 18px;
+  color: rgba(240, 248, 255, 0.863);
+}
+.try .span2 {
+  color: rgba(240, 248, 255, 0.438);
+
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  font-size: 025rem;
+  font-weight: bolder;
+  text-align: center;
+  height: 200px !important;
+}
+.chances .span3 {
+  position: absolute;
+  top: 120px;
+  left: 1040px;
+  font-weight: bolder;
+
+  font-size: 18px;
+  color: rgba(240, 248, 255, 0.863);
+}
+.chances .span4 {
+  color: rgba(240, 248, 255, 0.438);
+
+  font-size: 25rem;
+  font-weight: bolder;
+  position: absolute;
+  top: 50px;
+  left: 1010px;
+  height: 200px !important;
+}
